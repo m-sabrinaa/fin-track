@@ -4,6 +4,10 @@ export const askLLM = async (input, { temperature = 0 } = {}) => {
             ? [{ role: "user", content: input }]
             : input;
 
+    console.log(
+        `LLM call: model=${process.env.LLM_MODEL} temp=${temperature} messages=${messages.length}`
+    );
+
     const response = await fetch(process.env.LLM_BASE_URL, {
         method: "POST",
         headers: {
