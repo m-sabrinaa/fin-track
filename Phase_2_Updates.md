@@ -75,8 +75,22 @@ For the new features, the calculation uses the same example API payload assumpti
 | Anomaly Detection | $2,100 |
 | **Total** | **$795,354/month** |
 
+**The cost calculation is based on 20 million users.**
+
 > **Note:** Budget Planner and Anomaly Detection costs are estimates based on the 100-input / 10-output token assumption. Actual cost will vary with the amount of data included in each prompt and the model's response length.
 
 > **FinTrack does not need to create a new wallet. It can be integrated into the existing MFS ecosystem and add an AI-powered intelligence layer on top of transactions users already make.**
 
 This makes the solution scalable from a single MFS provider such as upay to the broader Bangladesh MFS ecosystem.
+
+
+## Sources
+
+### Bangladesh MFS Market
+- [Bangladesh Bank — MFS Statistics](https://www.bb.org.bd/en/index.php/financialactivity/mfsdata)
+- [Bangladesh Bank — Annual Report 2024–2025](https://www.bb.org.bd/pub/annual/anreport/ar2024-2025.pdf)
+- [Bangladesh Bank — Financial Stability Report 2024](https://www.bb.org.bd/mediaroom/pub/annual/fsr/financial%20stability%20report%202024.pdf)
+
+### AI Pricing
+- [DeepSeek — Official API Pricing](https://api-docs.deepseek.com/quick_start/pricing/)
+- [DeepSeek — Updates](https://api-docs.deepseek.com/updates/)
