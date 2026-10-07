@@ -75,6 +75,10 @@ For the new features, the calculation uses the same example API payload assumpti
 | Anomaly Detection | $2,100 |
 | **Total** | **$795,354/month** |
 
+<img width="1500" height="825" alt="image" src="https://github.com/user-attachments/assets/cb0aabd8-a2da-4832-bf0a-a72ab1daceba" />
+
+
+
 **The cost calculation is based on 20 million users.**
 
 > **Note:** Budget Planner and Anomaly Detection costs are estimates based on the 100-input / 10-output token assumption. Actual cost will vary with the amount of data included in each prompt and the model's response length.
